@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>connerebbinghaus</name>
+		<description>Conner's custom Gentoo overlay</description>
+		<homepage>https://github.com/connerebbinghaus/overlay</homepage>
+		<owner>
+			<email>connerebbinghaus@gmail.com</email>
+		</owner>
+		<source type="git">https://github.com/connerebbinghaus/overlay.git</source>
+	</repo>
+</repositories>
