@@ -11,6 +11,7 @@ HOMEPAGE="https://github.com/tryone144/compton"
 SRC_URI=""
 
 EGIT_REPO_URI="https://github.com/tryone144/compton.git"
+EGIT_BRANCH="dual_kawase"
 
 LICENSE="MIT"
 SLOT="0"
