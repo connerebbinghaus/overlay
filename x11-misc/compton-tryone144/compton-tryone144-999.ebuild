@@ -33,7 +33,10 @@ COMMON_DEPEND="${PYTHON_DEPS}
 	xinerama? ( x11-libs/libXinerama )"
 RDEPEND="${COMMON_DEPEND}
 	x11-apps/xprop
-	x11-apps/xwininfo"
+	x11-apps/xwininfo
+	!x11-misc/compton"
+
+	RDEPEND=""
 DEPEND="${COMMON_DEPEND}
 	app-text/asciidoc
 	virtual/pkgconfig
