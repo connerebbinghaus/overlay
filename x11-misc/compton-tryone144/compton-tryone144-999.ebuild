@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{4,5,6} )
 inherit toolchain-funcs python-r1 git-r3
 
 DESCRIPTION="A compositor for X, and a fork of xcompmgr-dana"
-HOMEPAGE="https://github.com/chjj/compton"
+HOMEPAGE="https://github.com/tryone144/compton"
 SRC_URI=""
 
 EGIT_REPO_URI="https://github.com/tryone144/compton.git"
@@ -34,7 +34,7 @@ COMMON_DEPEND="${PYTHON_DEPS}
 RDEPEND="${COMMON_DEPEND}
 	x11-apps/xprop
 	x11-apps/xwininfo
-	!x11-misc/compton"
+	!!x11-misc/compton"
 
 	RDEPEND=""
 DEPEND="${COMMON_DEPEND}
